@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chloe-web/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/chloe-web/static/js/main.036b2013.chunk.js",
+    "main.js.map": "/chloe-web/static/js/main.036b2013.chunk.js.map",
+    "runtime-main.js": "/chloe-web/static/js/runtime-main.72788f6a.js",
+    "runtime-main.js.map": "/chloe-web/static/js/runtime-main.72788f6a.js.map",
+    "static/js/2.76b2378f.chunk.js": "/chloe-web/static/js/2.76b2378f.chunk.js",
+    "static/js/2.76b2378f.chunk.js.map": "/chloe-web/static/js/2.76b2378f.chunk.js.map",
+    "index.html": "/chloe-web/index.html",
+    "precache-manifest.d5b5e60d1f81dc2b2c84e85bcd21164b.js": "/chloe-web/precache-manifest.d5b5e60d1f81dc2b2c84e85bcd21164b.js",
+    "service-worker.js": "/chloe-web/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/chloe-web/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.76b2378f.chunk.js.LICENSE.txt": "/chloe-web/static/js/2.76b2378f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72788f6a.js",
+    "static/js/2.76b2378f.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.036b2013.chunk.js"
+  ]
+}
