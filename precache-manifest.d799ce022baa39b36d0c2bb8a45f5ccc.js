@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4d6adbbff54fa0557967c1f7e176454",
+    "revision": "c64c50cd5cf81d27f51e256424959fb7",
     "url": "/chloe-web/index.html"
   },
   {
-    "revision": "d324ef6ac39edb809e7a",
+    "revision": "f2ec5005fef092d3ba72",
     "url": "/chloe-web/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "2f9af84c01ff6a274ea6",
-    "url": "/chloe-web/static/js/2.bd19d6cf.chunk.js"
+    "revision": "97892f36168a173cdc13",
+    "url": "/chloe-web/static/js/2.5c6c3257.chunk.js"
   },
   {
     "revision": "d0301acb352848d77f8def47557db56f",
-    "url": "/chloe-web/static/js/2.bd19d6cf.chunk.js.LICENSE.txt"
+    "url": "/chloe-web/static/js/2.5c6c3257.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d324ef6ac39edb809e7a",
-    "url": "/chloe-web/static/js/main.864cda97.chunk.js"
+    "revision": "f2ec5005fef092d3ba72",
+    "url": "/chloe-web/static/js/main.4cfcc49d.chunk.js"
   },
   {
     "revision": "60e725e5320331ec85a4",
