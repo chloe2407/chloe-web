@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Menu from '@material-ui/core/Menu';
 import Box from '@material-ui/core/Box';
+import Hamburger from "../pages/parts/hamburger.js";
 
 import { Link, withRouter } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
       display: 'block',
     },
   },
+  
   sectionDesktop: {
     display: 'none',
     [theme.breakpoints.up('md')]: {
@@ -91,19 +93,17 @@ const Nav = props => {
       <AppBar position="fixed" color="white">
         <Toolbar id="back-to-top-anchor">
           <Box display='flex' flexGrow={1}>
-            <Typography className={classes.title} variant="h6" noWrap>
+            <Link to="/"><Typography variant="h6" noWrap>
               Chloe
-            </Typography>
+            </Typography></Link>
           </Box>
-          <Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="/connect"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Connect
-          </Typography>
-          <Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          </Typography></Link>
+          <Link to="/portfolio"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Portfolio
-          </Typography>
-          <Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
-            Newsletter 
-          </Typography>
+          </Typography></Link>
+          <Hamburger/>
         </Toolbar>
       </AppBar>
       {renderMobileMenu}

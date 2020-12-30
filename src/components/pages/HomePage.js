@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
-import ScrollArrow from './parts/cards/scroll';
+import ScrollArrow from './parts/scroll';
 import HeadingImage from './HeadingImage';
 
  

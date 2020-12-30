@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { makeStyles } from "@material-ui/core/styles"
-import Nav from "../pages/parts/cards/navbar.js";
+import Nav from "../pages/navbar.js";
 
 
 const useStyles = makeStyles ({
