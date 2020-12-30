@@ -93,14 +93,14 @@ const Nav = props => {
       <AppBar position="fixed" color="white">
         <Toolbar id="back-to-top-anchor">
           <Box display='flex' flexGrow={1}>
-            <Link to="/"><Typography variant="h6" noWrap>
+            <Link to="chloe-web/"><Typography variant="h6" noWrap>
               Chloe
             </Typography></Link>
           </Box>
-          <Link to="/connect"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="chloe-web/connect"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Connect
           </Typography></Link>
-          <Link to="/portfolio"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="chloe-web/portfolio"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Portfolio
           </Typography></Link>
           <Hamburger/>
