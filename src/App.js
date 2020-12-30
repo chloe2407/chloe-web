@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import Header from "./components/containers/Header";
-import Body from "./components/containers/Body";
-import Footer from "./components/containers/Footer";
+import Header from "./components/containers/Header.js";
+import Body from "./components/containers/Body.js";
+import Footer from "./components/containers/Footer.js";
 
 //custom theme color
 const theme = createMuiTheme({

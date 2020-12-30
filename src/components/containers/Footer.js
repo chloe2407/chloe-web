@@ -6,7 +6,7 @@ const styles = theme => ({
   
 });
 
-const Footer = props => {
+const Footer = () => {
   return (
     <div>
       this is footer

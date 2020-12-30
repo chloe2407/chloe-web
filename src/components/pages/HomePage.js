@@ -1,10 +1,47 @@
+import { makeStyles } from '@material-ui/core';
 import React from 'react';
+import ScrollArrow from './parts/cards/scroll';
+import HeadingImage from './HeadingImage';
 
-function HomepageImage() {
-  const url = 'https://cdn.filestackcontent.com/XYrHCaFGRSaq0EPKY1S6';
+ 
+const useStyles = makeStyles(theme => ({
+
+}))
+
+
+
+const Homepage = props =>{
+  const classes = useStyles();
   return (
-    <img src={url} style={{width: 650}} alt='Golden Gate Bridge' />
+    <div>
+      <ScrollArrow/>
+      <HeadingImage/>
+      {/* my purpose big header*/}
+      {/* about me */}
+      {/* mission */}
+      {/* newsletters */}
+      {/* highlights of portfolio */}
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+      <p>ghghhhh</p>
+    </div>
+    
   );
 }
 
-export default HomepageImage;
+export default Homepage;
