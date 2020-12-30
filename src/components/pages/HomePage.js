@@ -21,6 +21,7 @@ const Homepage = props =>{
       {/* mission */}
       {/* newsletters */}
       {/* highlights of portfolio */}
+      <p>hi</p>
       <p>ghghhhh</p>
       <p>ghghhhh</p>
       <p>ghghhhh</p>
