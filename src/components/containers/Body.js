@@ -12,6 +12,7 @@ class Body extends Component {
     return (
       <div>
         <div style={{minHeight: 70}}></div>
+        hiiii
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/connect" exact component={Connect} />
