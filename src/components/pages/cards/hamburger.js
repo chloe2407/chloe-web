@@ -44,15 +44,15 @@ const useStyles = makeStyles(theme => ({
   const itemsList = [
     {
       text: "Home",
-      onClick: () => history.push("/")
+      onClick: () => history.push("/chloe-web/")
     },
     {
       text: "Connect",
-      onClick: () => history.push("/connect")
+      onClick: () => history.push("/chloe-web/connect")
     },
     {
       text: "Portfolio",
-      onClick: () => history.push("/portfolio")
+      onClick: () => history.push("/chloe-web/portfolio")
     },
   ]
 
