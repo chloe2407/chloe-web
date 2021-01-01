@@ -107,14 +107,14 @@ const Nav = props => {
         <Toolbar id="back-to-top-anchor">
       
           <Box display='flex' flexGrow={1}>
-            <Link to="/chloe-web/" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography variant="h6" noWrap>
+            <Link to="/" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography variant="h6" noWrap>
               Chloe
             </Typography></Link>
           </Box>
-          <Link to="/chloe-web/portfolio" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="/portfolio" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Portfolio
           </Typography></Link>
-          <Link to="/chloe-web/connect" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="/connect" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Connect
           </Typography></Link>
           <Hamburger/>

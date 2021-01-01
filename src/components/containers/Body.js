@@ -14,10 +14,10 @@ class Body extends Component {
       <div>
         <div style={{minHeight: 70}}></div>
         <Switch>
-          <Route path="/chloe-web/" exact component={Homepage} />
-          <Route path="/chloe-web/connect" exact component={Connect} />
-          <Route path="/chloe-web/portfolio" exact component={Portfolio} />
-          <Route path="/chloe-web/timeline" exact component={Timeline} />
+          <Route path="/" exact component={Homepage} />
+          <Route path="/connect" exact component={Connect} />
+          <Route path="/portfolio" exact component={Portfolio} />
+          <Route path="/timeline" exact component={Timeline} />
           <Route component={ErrorPage}/>
         </Switch>
       </div>
