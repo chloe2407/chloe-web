@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chloe-web/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/chloe-web/static/js/main.4b1531ab.chunk.js",
-    "main.js.map": "/chloe-web/static/js/main.4b1531ab.chunk.js.map",
+    "main.js": "/chloe-web/static/js/main.aa67dc81.chunk.js",
+    "main.js.map": "/chloe-web/static/js/main.aa67dc81.chunk.js.map",
     "runtime-main.js": "/chloe-web/static/js/runtime-main.72788f6a.js",
     "runtime-main.js.map": "/chloe-web/static/js/runtime-main.72788f6a.js.map",
     "static/js/2.51089245.chunk.js": "/chloe-web/static/js/2.51089245.chunk.js",
     "static/js/2.51089245.chunk.js.map": "/chloe-web/static/js/2.51089245.chunk.js.map",
     "index.html": "/chloe-web/index.html",
-    "precache-manifest.b70a67ded487e8f169e3ecb00eda20f5.js": "/chloe-web/precache-manifest.b70a67ded487e8f169e3ecb00eda20f5.js",
+    "precache-manifest.28070184b2657f8c6f381dae2e7757e1.js": "/chloe-web/precache-manifest.28070184b2657f8c6f381dae2e7757e1.js",
     "service-worker.js": "/chloe-web/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/chloe-web/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.51089245.chunk.js.LICENSE.txt": "/chloe-web/static/js/2.51089245.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.72788f6a.js",
     "static/js/2.51089245.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4b1531ab.chunk.js"
+    "static/js/main.aa67dc81.chunk.js"
   ]
 }
