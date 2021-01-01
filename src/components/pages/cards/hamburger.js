@@ -7,7 +7,7 @@ import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-
+import Close from '@material-ui/icons/Close';
 
 import { withRouter } from 'react-router-dom';
 
@@ -17,7 +17,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles(theme => ({
   list: {
-    width: 250,
+    width: "100vw",
   },
   fullList: {
     width: 'auto',
@@ -29,6 +29,11 @@ const useStyles = makeStyles(theme => ({
       display: 'none',
     },
   },
+  content: {
+    alignItems: "center", 
+    justifyContent: "center",
+    padding: "1vh 0",
+  }
 }));
 
  const Hamburger = props => {
@@ -38,12 +43,16 @@ const useStyles = makeStyles(theme => ({
 
   const itemsList = [
     {
+      text: "Home",
+      onClick: () => history.push("/")
+    },
+    {
       text: "Connect",
-      onClick: () => history.push("chloe-web/connect")
+      onClick: () => history.push("/connect")
     },
     {
       text: "Portfolio",
-      onClick: () => history.push("chloe-web/portfolio")
+      onClick: () => history.push("/portfolio")
     },
   ]
 
@@ -90,9 +99,10 @@ const useStyles = makeStyles(theme => ({
   );
 
   return (
-    <React.Fragment key={'right'}>
+    <React.Fragment key={'right'} >
       <Button className={classes.ham} onClick={toggleDrawer('right', true)}><MenuIcon/></Button>
       <Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
+      <Button onClick={toggleDrawer('right', false)} className={classes.content}><Close/></Button>
           {list('right')}
         </Drawer>
       </React.Fragment>

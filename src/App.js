@@ -50,9 +50,9 @@ const theme = createMuiTheme({
     MuiButton: {
       root: {
         fontWeight: 700,
-        borderRadius: 50,
-        padding: "10px 30px !important",
-        marginRight: 32,
+        // borderRadius: 50,
+        // padding: "10px 30px !important",
+        // marginRight: 32,
         "text-transform": "capitalize",
         fontSize: 16
       }

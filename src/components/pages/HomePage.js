@@ -1,14 +1,16 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
-import ScrollArrow from './parts/scroll';
-import HeadingImage from './HeadingImage';
-
+import ScrollArrow from './cards/scroll.js';
+import HeadingImage from './parts/HeadingImage.js';
+import AboutMe from './parts/AboutMe.js';
  
 const useStyles = makeStyles(theme => ({
-
+  space: {
+    [theme.breakpoints.up('md')]: {
+      height: "10vh"
+    }
+  }
 }))
-
-
 
 const Homepage = props =>{
   const classes = useStyles();
@@ -16,30 +18,11 @@ const Homepage = props =>{
     <div>
       <ScrollArrow/>
       <HeadingImage/>
-      {/* my purpose big header*/}
-      {/* about me */}
+      <AboutMe/>
+      <div className={classes.space}/>
       {/* mission */}
       {/* newsletters */}
       {/* highlights of portfolio */}
-      <p>hi</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
-      <p>ghghhhh</p>
     </div>
     
   );

@@ -1,13 +1,14 @@
 import React from 'react';
-import { fade, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Menu from '@material-ui/core/Menu';
 import Box from '@material-ui/core/Box';
-import Hamburger from "../pages/parts/hamburger.js";
+import Hamburger from "../../pages/cards/hamburger.js";
 
 import { Link, withRouter } from 'react-router-dom';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,6 +23,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('sm')]: {
       display: 'block',
     },
+  },
+  link: {
+    textDecoration: "none", 
+    color: "black",
   },
   
   sectionDesktop: {
@@ -86,22 +91,31 @@ const Nav = props => {
     >
     </Menu>
   );
-  
+
+  const MouseOver = (event) => {
+    event.target.style.color = 'cyan';
+
+  }
+  const MouseOut = (event) => {
+    event.target.style.color = '';
+
+  }
 
   return (
     <div className={classes.grow}>
       <AppBar position="fixed" color="white">
         <Toolbar id="back-to-top-anchor">
+      
           <Box display='flex' flexGrow={1}>
-            <Link to="chloe-web/"><Typography variant="h6" noWrap>
+            <Link to="/" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography variant="h6" noWrap>
               Chloe
             </Typography></Link>
           </Box>
-          <Link to="chloe-web/connect"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
-            Connect
-          </Typography></Link>
-          <Link to="chloe-web/portfolio"><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="/portfolio" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Portfolio
+          </Typography></Link>
+          <Link to="/connect" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+            Connect
           </Typography></Link>
           <Hamburger/>
         </Toolbar>

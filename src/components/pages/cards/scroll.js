@@ -5,7 +5,6 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   root: {
     position: 'fixed',
-    backgroundColor: "cyan",
     width: 50,
     height: 10,
     borderRadius: "50%",
