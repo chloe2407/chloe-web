@@ -107,14 +107,14 @@ const Nav = props => {
         <Toolbar id="back-to-top-anchor">
       
           <Box display='flex' flexGrow={1}>
-            <Link to={process.env.PUBLIC_URL + "/"} onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography variant="h6" noWrap>
+            <Link to="/" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography variant="h6" noWrap>
               Chloe
             </Typography></Link>
           </Box>
-          <Link to={process.env.PUBLIC_URL + "/portfolio"} onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="/portfolio" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Portfolio
           </Typography></Link>
-          <Link to={process.env.PUBLIC_URL + "/connect"} onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
+          <Link to="/connect" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.link}><Typography className={classes.title} variant="h6" noWrap style={{padding: "0 1vw"}}>
             Connect
           </Typography></Link>
           <Hamburger/>

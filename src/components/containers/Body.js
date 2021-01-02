@@ -14,10 +14,10 @@ class Body extends Component {
       <div>
         <div style={{minHeight: 70}}></div>
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'} exact component={Homepage} />
-          <Route path={process.env.PUBLIC_URL + '/connect'} exact component={Connect} />
-          <Route path={process.env.PUBLIC_URL + '/portfolio'} exact component={Portfolio} />
-          <Route path={process.env.PUBLIC_URL + '/timeline'} exact component={Timeline} />
+          <Route path='/' exact component={Homepage} />
+          <Route path='/connect' exact component={Connect} />
+          <Route path='/portfolio' exact component={Portfolio} />
+          <Route path='/timeline' exact component={Timeline} />
           <Route component={ErrorPage}/>
         </Switch>
       </div>
