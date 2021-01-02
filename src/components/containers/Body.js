@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Redirect, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Homepage from "../pages/HomePage.js";
 import Connect from "../pages/Connect.js";
 import Portfolio from "../pages/Portfolio.js";
@@ -13,7 +13,6 @@ class Body extends Component {
     return (
       <div>
         <div style={{minHeight: 70}}></div>
-        <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/connect" exact component={Connect} />
@@ -21,7 +20,6 @@ class Body extends Component {
           <Route path="/timeline" exact component={Timeline} />
           <Route component={ErrorPage}/>
         </Switch>
-        </Router>
       </div>
       
     );
