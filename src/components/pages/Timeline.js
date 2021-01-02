@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import { makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
 import ScrollArrow from './cards/scroll';
 
@@ -15,6 +15,7 @@ const Timeline = props =>{
   return (
     <div>
       <ScrollArrow/>
+      <Typography variant="h3" style={{textAlign: "center", padding: "5vh 0"}}>Coming Soon!</Typography>
       
 
 

@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import { makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
 import ScrollArrow from './cards/scroll';
 import TimelineTeaser from './parts/TimelineTeaser';
@@ -17,6 +17,7 @@ const Portfolio = props =>{
     <div>
       <ScrollArrow/>
       <TimelineTeaser/>
+      <Typography variant="h3" style={{textAlign: "center", padding: "5vh 0"}}>Coming Soon!</Typography>
       {/* past and current projects */}
     </div>
     
