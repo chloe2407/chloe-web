@@ -19,8 +19,7 @@ class Body extends Component {
           <Route path="/connect" exact component={Connect} />
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/timeline" exact component={Timeline} />
-          <Route path="/404" exact component={ErrorPage}/>
-          <Redirect to="/404"/>
+          <Route component={ErrorPage}/>
         </Switch>
         </Router>
       </div>
