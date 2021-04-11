@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
 const Socials = props => {
   const classes = useStyles();
   const MouseOver = (event) => {
-    event.target.style.color = 'cyan';
+    event.target.style.color = '#287194';
   }
   const MouseOut = (event) => {
     event.target.style.color = '';

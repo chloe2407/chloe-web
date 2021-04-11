@@ -39,18 +39,19 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: "#11D3BC",
-      contrastText: "#fff"
+      main: "#287194",
+      contrastText: "#d3d4ce"
     },
     secondary: {
-      main: "#FC5185"
+      main: "#023246",
+      contrastText: "#f6f6f6"
     }
   },
   overrides: {
     MuiButton: {
       root: {
         fontWeight: 700,
-        // borderRadius: 50,
+        borderRadius: 50,
         // padding: "10px 30px !important",
         // marginRight: 32,
         "text-transform": "capitalize",

@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const useStyles = makeStyles(theme => ({
   everything: {
     maxWidth: "100%",
-    backgroundColor: "gray", 
-    color: "white",
+    backgroundColor: "#f6f6f6", 
+    color: "#023246",
     display: "flex", 
     flexDirection: "column", 
     alignItems: "center", 
@@ -38,6 +38,7 @@ const useStyles = makeStyles(theme => ({
     padding: "0 2vw"
   },
   subscribe: {
+    backgroundColor: "transparent",
     [theme.breakpoints.up('md')]: {
       flexDirection: "column",
       minWidth:"60%",
@@ -71,7 +72,7 @@ const Footer = () => {
   const classes = useStyles();
 
   const MouseOver = (event) => {
-    event.target.style.color = 'cyan';
+    event.target.style.color = '#944646';
   }
   const MouseOut = (event) => {
     event.target.style.color = '';
@@ -88,20 +89,20 @@ const Footer = () => {
       <div className={classes.condrow}>
         <div style={{display: "flex", flexDirection: "row"}}>
           <Link to="/" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.links}>
-            <Typography variant="h6" noWrap>Home</Typography>
+            <Typography color="primary" variant="h6" noWrap>Home</Typography>
           </Link>
           <Link to="/portfolio" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.links}>
-            <Typography variant="h6" noWrap>Portfolio</Typography>
+            <Typography color="primary" variant="h6" noWrap>Portfolio</Typography>
           </Link>
           <Link to="/connect" onMouseOver={MouseOver} onMouseOut={MouseOut} className={classes.links}>
-            <Typography variant="h6" noWrap>Connect</Typography>
+            <Typography color="primary" variant="h6" noWrap>Connect</Typography>
           </Link>
         </div>
         <div className={classes.hidden}><Socials/></div>
       </div>
       </div>
       <div>
-        <Typography variant="h6" style={{width: "100%", padding: "2vw"}}>©2020 Copyright ChloeLam. All Rights Reserved.</Typography>
+        <Typography color="primary" variant="h6" style={{width: "100%", padding: "2vw"}}>©2021 Copyright Chloe Lam. All Rights Reserved.</Typography>
         <div className={classes.show}><Socials/></div>
       </div>
     </div>

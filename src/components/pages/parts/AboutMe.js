@@ -7,13 +7,14 @@ import Socials from "../cards/socials.js";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    [theme.breakpoints.up('lg')]: {
-      maxHeight: "90vh",
-      overflow: "hidden",
-    }
+    // [theme.breakpoints.up('lg')]: {
+    //   // maxHeight: "90vh",
+    //   overflow: "hidden",
+    // }
     
   },
   text: {
+    flex: 1,
     position: "relative",
     bottom: "10vh",
     [theme.breakpoints.up('sm')]: {
@@ -33,6 +34,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   img: {
+    flex: 1,
     display: "none",
     width: "auto",
     height: "auto",
