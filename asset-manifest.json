@@ -1,28 +1,44 @@
 {
   "files": {
     "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.9504bc92.chunk.js",
-    "main.js.map": "/static/js/main.9504bc92.chunk.js.map",
+    "main.js": "/static/js/main.1fb14f6e.chunk.js",
+    "main.js.map": "/static/js/main.1fb14f6e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d4575ab.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d4575ab.js.map",
-    "static/js/2.51089245.chunk.js": "/static/js/2.51089245.chunk.js",
-    "static/js/2.51089245.chunk.js.map": "/static/js/2.51089245.chunk.js.map",
+    "static/js/2.9b5d97ae.chunk.js": "/static/js/2.9b5d97ae.chunk.js",
+    "static/js/2.9b5d97ae.chunk.js.map": "/static/js/2.9b5d97ae.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.67238e35284e454feeea6f13d299ae73.js": "/precache-manifest.67238e35284e454feeea6f13d299ae73.js",
+    "precache-manifest.2166d381c9aed7299699378a6b6e8da1.js": "/precache-manifest.2166d381c9aed7299699378a6b6e8da1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.51089245.chunk.js.LICENSE.txt": "/static/js/2.51089245.chunk.js.LICENSE.txt",
+    "static/js/2.9b5d97ae.chunk.js.LICENSE.txt": "/static/js/2.9b5d97ae.chunk.js.LICENSE.txt",
+    "static/media/4dprint.png": "/static/media/4dprint.004a8b1f.png",
     "static/media/aboutme.jpg": "/static/media/aboutme.0f892553.jpg",
+    "static/media/ai_article.jpeg": "/static/media/ai_article.68bb7319.jpeg",
+    "static/media/brainer.png": "/static/media/brainer.45dbc8e4.png",
+    "static/media/citychallenge.png": "/static/media/citychallenge.7b4e156c.png",
+    "static/media/craftingsjoy.png": "/static/media/craftingsjoy.e545791e.png",
+    "static/media/growth_article.jpeg": "/static/media/growth_article.e6343142.jpeg",
+    "static/media/hapticai_op.png": "/static/media/hapticai_op.00bdaadf.png",
+    "static/media/hapticai_vid.png": "/static/media/hapticai_vid.6144eaa4.png",
+    "static/media/longevitypitch.png": "/static/media/longevitypitch.d508d500.png",
     "static/media/myicon.png": "/static/media/myicon.1250fb3a.png",
     "static/media/name.png": "/static/media/name.d4b6f90a.png",
+    "static/media/nanotech.png": "/static/media/nanotech.36ed64a5.png",
+    "static/media/newsletter.png": "/static/media/newsletter.e78ab32e.png",
     "static/media/penguin.png": "/static/media/penguin.d972746d.png",
     "static/media/pic.jpg": "/static/media/pic.57b60c1e.jpg",
-    "static/media/resume.pdf": "/static/media/resume.a5fa64d3.pdf"
+    "static/media/planit.png": "/static/media/planit.7866d31e.png",
+    "static/media/psiquantum.png": "/static/media/psiquantum.a0e087da.png",
+    "static/media/resume.pdf": "/static/media/resume.a5fa64d3.pdf",
+    "static/media/stemcells.png": "/static/media/stemcells.2459df15.png",
+    "static/media/unchallenge.png": "/static/media/unchallenge.ffe51acf.png",
+    "static/media/upcyc.png": "/static/media/upcyc.9d36a6e1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d4575ab.js",
-    "static/js/2.51089245.chunk.js",
+    "static/js/2.9b5d97ae.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.9504bc92.chunk.js"
+    "static/js/main.1fb14f6e.chunk.js"
   ]
 }
