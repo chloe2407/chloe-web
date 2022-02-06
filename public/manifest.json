@@ -1,6 +1,11 @@
 {
   "short_name": "Chloe Lam",
   "name": "Chloe Lam's Website",
+  "homepage": "http://www.chloelam.ca/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "icons": [
     {
       "src": "favicon2.ico",

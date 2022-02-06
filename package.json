@@ -9,8 +9,8 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.57",
     "@material-ui/x-grid-data-generator": "^4.0.0-alpha.18",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^7.2.1",
     "@typeform/embed": "^0.31.1",
     "cors": "^2.8.5",
@@ -19,7 +19,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^5.0.0",
     "react-typing-effect": "^2.0.4"
   },
   "scripts": {
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3",
+    "webpack": "^2.1.0-beta.22"
   }
 }
