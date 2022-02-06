@@ -123,7 +123,7 @@ const HeadingImage = props => {
               cursorRenderer={cursor => <Typography variant="h5" className={classes.text}>{cursor}</Typography>}
               displayTextRenderer={(text, i) => {
                 return (
-                  <Typography variant="h5" className={classes.text}>A 17-year-old 
+                  <Typography variant="h5" className={classes.text}>18-year-old 
                     {text.split('').map((char, i) => {
                       const key = `${i}`;
                         return (

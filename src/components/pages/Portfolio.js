@@ -21,7 +21,25 @@ const useStyles = makeStyles(theme => ({
 
 }))
 
-const allCategories = ['All', 'Newsletter','Artificial Intelligence','Entrepreneurship', 'Prototype', 'Video', 'Article','Deck/One-Pager', 'Longevity', 'Quantum Computing', 'Recommendation','Hackathon', 'Haptics', 'Social Media', 'Nanotechnology', 'Website'];
+const allCategories = ['All', 
+'Newsletter',
+'Artificial Intelligence',
+'Entrepreneurship', 
+'Prototype', 
+'Video', 
+'Article',
+'Deck/One-Pager', 
+'Longevity', 
+'Quantum Computing', 
+'Recommendation',
+'Hackathon', 
+'Haptics', 
+'Social Media', 
+'Nanotechnology', 
+'Website', 
+'Coding Projects', 
+'Design'
+];
 
 
 const Portfolio = props => {

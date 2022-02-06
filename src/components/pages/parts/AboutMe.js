@@ -59,7 +59,7 @@ const AboutMe = props => {
             <img className={classes.img} src={aboutme} alt="mefull"/>
             <div className={classes.text}>
               <Typography variant="h5">About Me</Typography>
-              <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated 17-year-old who strives to constantly improve my technical skills, based in Vancouver, BC, Canada. </Typography><br/>
+              <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated 18-year-old who strives to constantly improve my technical skills, based in Vancouver, BC, Canada. </Typography><br/>
               <Typography variant="p">I have extensive experience volunteering at Geering Up as a Junior Instructor, related to coding and engineering, and internship work experiences at technology-related startup companies, like CodeCa and ELIX. As a current Innovator at The Knowledge Society, I learn about numerous emerging technologies and learn essential life skills, such as leadership and networking. One way I develop these skills is through various hackathons hosted by TKS, like the AI Hackathon and City Challenge.</Typography><br/><br/>
               <Typography variant="p">I am always curious to learn new things! Let's chat!</Typography>
               <Socials/>

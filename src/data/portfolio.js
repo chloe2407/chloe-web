@@ -1,5 +1,4 @@
 import React from "react";
-import penguin from "../assets/penguin.png"
 import newsletter from "../assets/portfolio/newsletter.png"
 import craft from "../assets/portfolio/craftingsjoy.png"
 import upcyc from "../assets/portfolio/upcyc.png"
@@ -16,6 +15,7 @@ import unchallenge from "../assets/portfolio/unchallenge.png"
 import brainer from "../assets/portfolio/brainer.png"
 import fourPrint from "../assets/portfolio/4dprint.png"
 import nanotech from "../assets/portfolio/nanotech.png"
+import battle from "../assets/portfolio/battle.png"
 
 
 
@@ -194,7 +194,7 @@ const data = {
     id: 22,
     img: planit,
     title: "PlanIt! -- AI Hackathon Prototype",
-    category:['Prototype', 'Hackathon', 'Artificial Intelligence'],
+    category:['Prototype', 'Hackathon', 'Artificial Intelligence', 'Design'],
     description: "Did you know that a staggering 50 percent of perfect food is thrown out while still edible? Well...I didn't either. Food waste is such a big problem in both developing and developed countries. It is one of the key factors that lead to poverty and overpopulation in developing countries. In developed countries, over 43 billion pounds of food in near-perfect condition get thrown out every year. \n In order to reduce this alarming percentage in developed countries, our team created PlanIt, an app that scans fruit or vegetables, using AI technology like Computer Vision and Convolutional Neural Networks, to tell consumers or grocery store owners an accurate expiration date instead of relying on the store’s sell-by stickers, which can be oftentimes inaccurate. This reduces food waste in consumer buying and creates more informative buying decisions, while also allowing grocery store owners to sell more produce as they reduce food waste.",
     link: 'https://www.figma.com/file/fjEfFMNpGCUZFX2laQ5yIY/TKS-AI-Hackathon?node-id=0%3A1',
 },
@@ -202,7 +202,7 @@ const data = {
     id: 23,
     img: upcyc,
     title: "UpCyc Prototype",
-    category:['Prototype', 'Entrepreneurship'],
+    category:['Prototype', 'Entrepreneurship', 'Design'],
     description: "UpCyc is a platform that incentivizes and inspires people to commit to upcycling waste towards a better environment.",
     link: 'https://www.figma.com/proto/JaMmkZQROcOKByjM2eFVkt/upcyc?node-id=3%3A15&scaling=scale-down',
 },
@@ -210,7 +210,7 @@ const data = {
     id: 24,
     img: craft,
     title: "Crafting's Joy Website",
-    category:['Website', 'Entrepreneurship'],
+    category:['Website', 'Entrepreneurship', 'Design'],
     description: "Think back to when you were a child? Craft-making used to be one of my favourite hobbies, and maybe one of yours as well. But nowadays, younger children, who are growing in a world filled with tech, are glued to their screens. \n To combat this, Crafting’s Joy is a student initiative that provides craft kits with five different animal-themed activities in it for children bored at home (especially suitable during COVID times!). \n By purchasing this product, it will spark children’s creativity through craft-making and skill-building. Purchase our craft kits for your children or any child within your network today through our newly launched website! \n If you have any further questions, feel free to reach out to me and ask any questions you may have.",
     link: 'https://www.craftingsjoy.com/',
 },
@@ -269,6 +269,14 @@ const data = {
     category:['Social Media', 'Entrepreneurship'],
     description: "At Crafting’s Joy, our focus on sustainability and philanthropy allows us to spark children’s creativity through craft-making and skill-building. ",
     link: 'https://www.instagram.com/craftingsjoy',
+},
+{
+    id: 32,
+    img: battle,
+    title: "Battleship Game",
+    category:['Coding Projects', 'Javascript', 'HTML', 'CSS'],
+    description: "Built a battleship game using Javascript, HTML, CSS. Followed Ania Kubow's Tutorial on Youtube.",
+    link: 'https://chloe2407.github.io/battleship/',
 },
 
 
