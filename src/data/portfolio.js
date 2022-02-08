@@ -278,6 +278,15 @@ const data = {
     description: "Built a battleship game using Javascript, HTML, CSS. Followed Ania Kubow's Tutorial on Youtube.",
     link: 'https://chloe2407.github.io/battleship/',
 },
+{
+    id: 33,
+    img: newsletter,
+    title: "Computing Overload: Chloe's April Uncovered!",
+    category:['Newsletter'],
+    description: "Released my newsletter a couple of days ago. Check it out to see my highlights of April!",
+    link: 'https://chloelam.substack.com/p/aprils-narrative',
+},
+
 
 
     ]

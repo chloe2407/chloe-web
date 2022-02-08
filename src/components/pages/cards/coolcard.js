@@ -7,6 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import ClickAwayListener from
+	"@material-ui/core/ClickAwayListener";
+
 
 
 import clsx from 'clsx';
@@ -73,10 +76,16 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function CoolCard(props) {
+export default function CoolCardClick(props) {
   const classes = useStyles();
   const [isShown, setIsShown] = React.useState(false);
   const [expanded, setExpanded] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
+
+const handleClickAwayEvent = () => {
+	setOpen(false);
+    setExpanded(false);
+};
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -109,7 +118,13 @@ export default function CoolCard(props) {
       </CardActionArea>
       </a>
       <CardActions>
-        <IconButton
+      <ClickAwayListener onClickAway={handleClickAwayEvent}>
+		<div
+		style={{
+			position: "relative",
+		}}
+		>
+		<IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -119,6 +134,9 @@ export default function CoolCard(props) {
         >
           <ExpandMoreIcon />
         </IconButton>
+		{open ? (<div></div>) : null}
+		</div>
+	</ClickAwayListener>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
@@ -126,8 +144,6 @@ export default function CoolCard(props) {
           </Typography>
         </CardContent>
       </Collapse>
-
-      
     </Card>
   );
 }

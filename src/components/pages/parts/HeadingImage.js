@@ -2,11 +2,13 @@ import { makeStyles } from '@material-ui/core';
 import {Typography, Grid, Button } from '@material-ui/core';
 
 import React from 'react';
-import pic from "../../../assets/pic.jpg";
+import pic from "../../../assets/profile3.jpeg";
 import name from "../../../assets/name.png";
 import resume from "../../../assets/resume.pdf";
 
+
 import ReactTypingEffect from 'react-typing-effect';
+
 
  
 const useStyles = makeStyles(theme => ({
@@ -107,6 +109,7 @@ const HeadingImage = props => {
   const classes = useStyles();
   return (
       <div className={classes.root}>
+        <div className={classes.background}>
         <Grid container className={classes.layout}>
           <Grid item xs={12} sm={6} md={6} lg={6} >
             <img src={pic} className={classes.img} alt="profilepic"/>
@@ -140,6 +143,7 @@ const HeadingImage = props => {
         </Grid>
         </Grid>
         <hr className={classes.dashed}></hr>
+        </div>
       </div>
   )};
   export default HeadingImage;
