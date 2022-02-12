@@ -18,21 +18,11 @@ const useStyles = makeStyles(theme => ({
 
 const Newsletters = props => {
     const classes = useStyles();
-    const index = 0
-    data2.categories.filter(item => {
-        for (var i = 0; i < data2.categories.length; i++) 
-        {
-          if (item.name === "Newspaper")
-          {
-            index = i
-          }
-        }
-      })
     
   return (
       <div className={classes.layout}>
         <Typography variant="h3">Get to know me better through my Monthly Newsletters!</Typography>
-        <CarouselDeck {...index}/>
+        <CarouselDeck props="Newsletter"/>
         
       </div>
   )};

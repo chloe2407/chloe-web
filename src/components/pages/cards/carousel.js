@@ -2,8 +2,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from 'react';
 import data from "../../../data/portfolio.js";
-import data2 from "../../../data/categories";
-
 import CoolCard from '../cards/coolcard.js';
 
 
@@ -24,21 +22,24 @@ const responsive = {
    
 
 
-export default function CarouselDeck(props) {
+export default function CarouselDeck({props}) {
     const filteredData = []
-    data.port.filter(item => {
-      for (var i = 0; i < item.category.length; i++) 
-      {
-        //   TODO: adjust so that i can use props instead
-        if (item.category[i] === data2.categories[1])
+    const datac = data.port
+    //  iterate through data.port (all items)
+    for (var i = 0; i < datac.length; i++) 
+    {
+        for (var j = 0; j < datac[i].category.length; j++)
         {
-          // add to filtered data
-          filteredData.push(item)
+            if (datac[i].category[j].includes(props))
+            {
+                // add to filtered data
+                filteredData.push(datac[i])
+            }
         }
-      }
-    })
+        
+    }
     return (
-        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}
+        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2500}
                     removeArrowOnDeviceType={["desktop", "tablet", "mobile"]} >
         {
         filteredData.map((item) => {

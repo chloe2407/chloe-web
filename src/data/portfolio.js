@@ -16,6 +16,7 @@ import brainer from "../assets/portfolio/brainer.png"
 import fourPrint from "../assets/portfolio/4dprint.png"
 import nanotech from "../assets/portfolio/nanotech.png"
 import battle from "../assets/portfolio/battle.png"
+import c3dweb from "../assets/portfolio/c3d_web.png"
 
 
 
@@ -122,7 +123,7 @@ const data = {
     id: 13,
     img: unchallenge,
     title: "Global UN Challenge: Increasing Women's Employment in the Philippines",
-    category:['Deck/One-Pager', 'Recommendation'],
+    category:['Deck/One-Pager', 'Recommendation', 'Featured'],
     description: "aiming to increase women’s employment in the digital economy by 2026 in the Philippines",
     link: 'https://docs.google.com/presentation/d/1XEexoK-VjxQZzFFilqifPqOYGAdkzsxP0L-842riigI/edit?usp=sharing',
 },
@@ -146,7 +147,7 @@ const data = {
     id: 16,
     img: aiarticle,
     title: "‘Can machines think?’ — Alan Turing",
-    category:['Artificial Intelligence', 'Article'],
+    category:['Artificial Intelligence', 'Article', 'Featured'],
     description: "An article detailing how exactly AI and Machine Learning work.",
     link: 'https://medium.datadriveninvestor.com/can-machines-think-alan-turing-4ce34fae23ee',
 },
@@ -202,7 +203,7 @@ const data = {
     id: 23,
     img: upcyc,
     title: "UpCyc Prototype",
-    category:['Prototype', 'Entrepreneurship', 'Design'],
+    category:['Prototype', 'Entrepreneurship', 'Design', 'Featured'],
     description: "UpCyc is a platform that incentivizes and inspires people to commit to upcycling waste towards a better environment.",
     link: 'https://www.figma.com/proto/JaMmkZQROcOKByjM2eFVkt/upcyc?node-id=3%3A15&scaling=scale-down',
 },
@@ -286,6 +287,14 @@ const data = {
     description: "Released my newsletter a couple of days ago. Check it out to see my highlights of April!",
     link: 'https://chloelam.substack.com/p/aprils-narrative',
 },
+{
+    id: 34,
+    img: c3dweb,
+    title: "C3D Summer Camp Webpage",
+    category:['Coding', 'HTML', 'CSS', 'Javascript', 'React.js', 'Featured'],
+    description: "Worked with CodeCa to help build their website pages using HTML, CSS, Javascript, React.js.",
+    link: 'https://summercamp.c3d.io/',
+}
 
 
 

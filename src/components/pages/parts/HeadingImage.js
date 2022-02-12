@@ -126,7 +126,7 @@ const HeadingImage = props => {
               cursorRenderer={cursor => <Typography variant="h5" className={classes.text}>{cursor}</Typography>}
               displayTextRenderer={(text, i) => {
                 return (
-                  <Typography variant="h5" className={classes.text}>18-year-old 
+                  <Typography variant="h5" className={classes.text}>
                     {text.split('').map((char, i) => {
                       const key = `${i}`;
                         return (
@@ -139,7 +139,7 @@ const HeadingImage = props => {
                 );
               }}        
             />
-            <Button className={classes.button} variant="outlined" size="large" color="primary"><a style={{textDecoration: "none", color: "inherit"}} href={resume} download="Chloe_Lam_Resume_December_2020">My resume</a></Button>
+            <Button className={classes.button} variant="outlined" size="large" color="primary"><a style={{textDecoration: "none", color: "inherit"}} href={resume} download="Chloe_Lam_Resume">My resume</a></Button>
         </Grid>
         </Grid>
         <hr className={classes.dashed}></hr>

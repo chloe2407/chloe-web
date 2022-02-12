@@ -1,24 +1,7 @@
 const data = {
-    // categories: [
-    //     {name: 'All',},
-    //     {name: 'Newsletter',},
-    //     {name: 'Artificial Intelligence',},
-    //     {name: 'Entrepreneurship',},
-    //     {name: 'Prototype', },
-    //     {name: 'Video', },
-    //     {name: 'Deck/One-Pager',},
-    //     {name: 'Longevity', },
-    //     {name: 'Quantum Computing',},
-    //     {name: 'Recommendation',},
-    //     {name: 'Hackathon',},
-    //     {name: 'Social Media',},
-    //     {name: 'Nanotechnology', },
-    //     {name: 'Website', },
-    //     {name: 'Coding Projects', },
-    //     {name: 'Design'},
-    // ]
     categories: [
-        'All', 
+        'All ',
+        'Featured', 
         'Newsletter',
         'Artificial Intelligence',
         'Entrepreneurship', 

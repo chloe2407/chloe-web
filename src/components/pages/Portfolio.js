@@ -9,6 +9,7 @@ import CoolCard from '../../components/pages/cards/coolcard.js';
 import Menu from './parts/Menu';
 import But from './parts/Button';
 import Dropdown from './cards/dropdown';
+import data2 from "../../data/categories.js";
  
 const useStyles = makeStyles(theme => ({
   layout: {
@@ -21,25 +22,26 @@ const useStyles = makeStyles(theme => ({
 
 }))
 
-const allCategories = ['All', 
-'Newsletter',
-'Artificial Intelligence',
-'Entrepreneurship', 
-'Prototype', 
-'Video', 
-'Article',
-'Deck/One-Pager', 
-'Longevity', 
-'Quantum Computing', 
-'Recommendation',
-'Hackathon', 
-'Haptics', 
-'Social Media', 
-'Nanotechnology', 
-'Website', 
-'Coding Projects', 
-'Design'
-];
+const allCategories = data2.categories
+// ['All', 
+// 'Newsletter',
+// 'Artificial Intelligence',
+// 'Entrepreneurship', 
+// 'Prototype', 
+// 'Video', 
+// 'Article',
+// 'Deck/One-Pager', 
+// 'Longevity', 
+// 'Quantum Computing', 
+// 'Recommendation',
+// 'Hackathon', 
+// 'Haptics', 
+// 'Social Media', 
+// 'Nanotechnology', 
+// 'Website', 
+// 'Coding Projects', 
+// 'Design'
+// ];
 
 
 const Portfolio = props => {
@@ -48,7 +50,7 @@ const Portfolio = props => {
   const [buttons, setButtons] = useState(allCategories);
   
   const filter = (button) =>{
-    if(button  === 'All')
+    if(button  === data2.categories[0])
     {
       setMenuItem(data.port);
       return;
