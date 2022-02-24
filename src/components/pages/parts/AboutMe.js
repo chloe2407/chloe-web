@@ -4,6 +4,8 @@ import aboutme from "../../../assets/aboutme1.jpeg";
 
 import React from 'react';
 import Socials from "../cards/socials.js";
+import csc110proj from "../../../assets/portfolio/CSC110_Project.pdf"
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -16,18 +18,14 @@ const useStyles = makeStyles(theme => ({
   text: {
     flex: 1,
     position: "relative",
-    bottom: "10vh",
+    left: "2vw",
     [theme.breakpoints.up('sm')]: {
-      top: "2vh",
       lineHeight: "160%",
     },
     [theme.breakpoints.up('md')]: {
-      top: "10vh", 
       lineHeight: "200%"
     },
     [theme.breakpoints.up('lg')]: {
-      top: "14vh",
-      left: "2vw",
       maxWidth: "50%",
       lineHeight: "200%"
 
@@ -65,8 +63,8 @@ const AboutMe = props => {
             <div className={classes.imgCont}><img className={classes.img} src={aboutme} alt="mefull"/></div>
             <div className={classes.text}>
               <Typography variant="h3">About Me</Typography>
-              <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated 18-year-old who strives to constantly improve my technical skills, based in Toronto, ON, Canada. </Typography><br/>
-              <Typography variant="p">As a first year in Computer Science, I work with like minded peers at the University of Toronto on various projects like this one! </Typography><br/>
+              <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated student who strives to constantly improve my technical skills, based in Toronto, ON, Canada. </Typography><br/>
+              <Typography variant="p">As a first year in Computer Science, I work with like minded peers at the University of Toronto on various projects like <a href={csc110proj} target="_blank">this one</a>! </Typography><br/>
               <Typography variant="p">I also have extensive experience volunteering at Geering Up (UBC) as a Junior Instructor, related to coding and engineering, and internship work experiences at technology-related startup companies, like CodeCa and ELIX. I have also learned about numerous emerging technologies and learned essential life skills, such as leadership and networking through joining The Knowledge Society. One way I develop these skills is through various hackathons hosted by TKS, like the AI Hackathon and City Challenge.</Typography><br/>
               <Typography variant="p">I am always curious to learn new things! Let's chat!</Typography>
               <Socials/>

@@ -17,8 +17,8 @@ import fourPrint from "../assets/portfolio/4dprint.png"
 import nanotech from "../assets/portfolio/nanotech.png"
 import battle from "../assets/portfolio/battle.png"
 import c3dweb from "../assets/portfolio/c3d_web.png"
-
-
+import csc110proj from "../assets/portfolio/CSC110_Project.pdf"
+import lineplot from "../assets/portfolio/line_plot_default.png"
 
 
 const data = {
@@ -125,7 +125,7 @@ const data = {
     title: "Global UN Challenge: Increasing Women's Employment in the Philippines",
     category:['Deck/One-Pager', 'Recommendation', 'Featured'],
     description: "aiming to increase women’s employment in the digital economy by 2026 in the Philippines",
-    link: 'https://docs.google.com/presentation/d/1XEexoK-VjxQZzFFilqifPqOYGAdkzsxP0L-842riigI/edit?usp=sharing',
+    link: 'https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FV4TVmZkjwJc3NU8KYapnVkV6yDo1%2FAngelina%2C%20Chloe%2C%20Jalisha%2C%20Julia%2C%20Macy%20-%20UN%20Recommendation%20Deck.pdf?alt=media&token=c75f327c-7b38-40f7-a16a-dee25c6faeb3',
 },
 {
     id: 14,
@@ -291,9 +291,17 @@ const data = {
     id: 34,
     img: c3dweb,
     title: "C3D Summer Camp Webpage",
-    category:['Coding', 'HTML', 'CSS', 'Javascript', 'React.js', 'Featured'],
+    category:['Coding Projects', 'HTML', 'CSS', 'Javascript', 'React.js', 'Featured'],
     description: "Worked with CodeCa to help build their website pages using HTML, CSS, Javascript, React.js.",
     link: 'https://summercamp.c3d.io/',
+},
+{
+    id: 35,
+    img: lineplot,
+    title: "r/HowCovidImpactsMentalHealth",
+    category:['Coding Projects', 'Python'],
+    description: "Worked with peers in CSC110 to find the relationship bewtween Covid-19 and Mental Health",
+    link: csc110proj,
 }
 
 
