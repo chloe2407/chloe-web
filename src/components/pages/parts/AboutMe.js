@@ -64,8 +64,10 @@ const AboutMe = props => {
             <div className={classes.text}>
               <Typography variant="h3">About Me</Typography>
               <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated student who strives to constantly improve my technical skills, based in Toronto, ON, Canada. </Typography><br/>
-              <Typography variant="p">As a first year in Computer Science, I work with like minded peers at the University of Toronto on various projects like <a href={csc110proj} target="_blank">this one</a>! </Typography><br/>
-              <Typography variant="p">I also have extensive experience volunteering at Geering Up (UBC) as a Junior Instructor, related to coding and engineering, and internship work experiences at technology-related startup companies, like CodeCa and ELIX. I have also learned about numerous emerging technologies and learned essential life skills, such as leadership and networking through joining The Knowledge Society. One way I develop these skills is through various hackathons hosted by TKS, like the AI Hackathon and City Challenge.</Typography><br/>
+              <Typography variant="p">As a second year specializing in Computer Science with a Mathematics and Statistics minor, I work with like minded peers at the University of Toronto on various projects like <a href={csc110proj} target="_blank">this one</a>! </Typography><br/>
+              <Typography variant="p">Currently the Webmaster for University College Literary and Athletic Society and Cybersecurity Student Association at the University of Toronto.</Typography><br/>
+
+              <Typography variant="p">Extensive experience teaching STEM camps and internship work experiences at technology-related startup companies. Learned about numerous emerging technologies, leadership, and networking through partipation at The Knowledge Society and various Hackathons.</Typography><br/>
               <Typography variant="p">I am always curious to learn new things! Let's chat!</Typography>
               <Socials/>
             </div>

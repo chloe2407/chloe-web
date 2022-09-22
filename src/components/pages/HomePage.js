@@ -25,7 +25,7 @@ const Homepage = props =>{
       <div className={classes.space}/>
       <FeaturedWorks/>
       {/* mission */}
-      <Newsletters/>
+      {/* <Newsletters/> */}
       
     </div>
     

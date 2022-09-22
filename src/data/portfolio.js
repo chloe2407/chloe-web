@@ -19,6 +19,9 @@ import battle from "../assets/portfolio/battle.png"
 import c3dweb from "../assets/portfolio/c3d_web.png"
 import csc110proj from "../assets/portfolio/CSC110_Project.pdf"
 import lineplot from "../assets/portfolio/line_plot_default.png"
+import ribosoma from "../assets/portfolio/ribosoma.png"
+import uniplanit from "../assets/portfolio/uniplanit.png"
+import petudier from "../assets/portfolio/petudier.png"
 
 
 const data = {
@@ -302,7 +305,33 @@ const data = {
     category:['Coding Projects', 'Python'],
     description: "Worked with peers in CSC110 to find the relationship bewtween Covid-19 and Mental Health",
     link: csc110proj,
-}
+},
+{
+    id: 36,
+    img: ribosoma,
+    title: "Ribosoma Biolabs",
+    category:['Entrepreneurship', 'Website'],
+    description: "h",
+    link: "https://chloe2407.github.io/ribosoma/",
+},
+{
+    id: 37,
+    img: uniplanit,
+    title: "UniPlanit",
+    category:['Entrepreneurship', 'Website, ReactJS'],
+    description: "UniPlanit's intelligent algorithm generates your best schedules for you. We help university students produce a customised timetable satisfying their needs for desired lectures, reserved break times, having classes with friends, and many more.",
+    link: 'https://www.uniplanit.com'
+},
+{
+    id: 38,
+    img: petudier,
+    title: "Pétudier",
+    category:['Entrepreneurship', 'Website'],
+    description: "Pétudier aims to aid students in becoming more productive by blocking out distracting websites when it's time to study. It promotes self-improvement and building effective time management.",
+    link: 'https://www.youtube.com/watch?v=Wbbj37xxTjQ&t=36s'
+},
+
+
 
 
 
