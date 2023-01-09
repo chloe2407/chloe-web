@@ -2,10 +2,7 @@ import { makeStyles, Typography, Grid} from '@material-ui/core';
 import React from 'react';
 import { useState } from 'react';
 import ScrollArrow from './cards/scroll';
-import TimelineTeaser from './parts/TimelineTeaser';
 import data from "../../data/portfolio.js";
-import Chip from '@material-ui/core/Chip';
-import CoolCard from '../../components/pages/cards/coolcard.js';
 import Menu from './parts/Menu';
 import But from './parts/Button';
 import Dropdown from './cards/dropdown';
@@ -57,13 +54,11 @@ const Portfolio = props => {
     <div className={classes.layout}>
 
 
-        {/* <Typography variant="h1">Chloe's Portfolio</Typography> */}
       <Typography variant="h5">Welcome to my portfolio! Below you can view projects based on their category.</Typography>
 
       <Dropdown button={buttons} filter={filter} className={classes.dropdown}/>
       <But button={buttons} filter={filter} className={classes.buttons}/>
       <Menu menuItem={menuItem}/>
-      {/* <Outlet/> */}
       
       <ScrollArrow/>
       

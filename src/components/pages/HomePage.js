@@ -3,7 +3,6 @@ import React from 'react';
 import ScrollArrow from './cards/scroll.js';
 import HeadingImage from './parts/HeadingImage.js';
 import AboutMe from './parts/AboutMe.js';
-import Newsletters from './parts/Newsletters.js';
 import FeaturedWorks from './parts/FeaturedWorks.js';
 
 const useStyles = makeStyles(theme => ({
@@ -24,9 +23,7 @@ const Homepage = props =>{
       <AboutMe/>
       <div className={classes.space}/>
       <FeaturedWorks/>
-      {/* mission */}
-      {/* <Newsletters/> */}
-      
+      {/* mission */}      
     </div>
     
   );

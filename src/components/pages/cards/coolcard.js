@@ -7,19 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import ClickAwayListener from "@material-ui/core/ClickAwayListener";
-import { Link, withRouter } from 'react-router-dom';
-
-
-
-import clsx from 'clsx';
-import Collapse from '@material-ui/core/Collapse';
-
-import IconButton from '@material-ui/core/IconButton';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import PortfolioProject from '../parts/PortfolioProject';
-
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -81,17 +69,6 @@ const useStyles = makeStyles(theme => ({
 export default function CoolCardClick(props) {
   const classes = useStyles();
   const [isShown, setIsShown] = React.useState(false);
-  const [expanded, setExpanded] = React.useState(false);
-  const [open, setOpen] = React.useState(false);
-
-const handleClickAwayEvent = () => {
-	setOpen(false);
-    setExpanded(false);
-};
-
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
   return (
     <Card className={classes.root}>
       {/* <a className={classes.link} href={props.link} target="_blank" rel="noopener noreferrer"> */}
