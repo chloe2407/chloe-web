@@ -10,7 +10,6 @@ import Menu from './parts/Menu';
 import But from './parts/Button';
 import Dropdown from './cards/dropdown';
 import data2 from "../../data/categories.js";
-// import { Outlet } from "react-router-dom";
 
  
 const useStyles = makeStyles(theme => ({
@@ -25,26 +24,6 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const allCategories = data2.categories
-// ['All', 
-// 'Newsletter',
-// 'Artificial Intelligence',
-// 'Entrepreneurship', 
-// 'Prototype', 
-// 'Video', 
-// 'Article',
-// 'Deck/One-Pager', 
-// 'Longevity', 
-// 'Quantum Computing', 
-// 'Recommendation',
-// 'Hackathon', 
-// 'Haptics', 
-// 'Social Media', 
-// 'Nanotechnology', 
-// 'Website', 
-// 'Coding Projects', 
-// 'Design'
-// ];
-
 
 const Portfolio = props => {
   const classes = useStyles();
