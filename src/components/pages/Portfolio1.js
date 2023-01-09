@@ -5,13 +5,11 @@ import ScrollArrow from './cards/scroll';
 import TimelineTeaser from './parts/TimelineTeaser';
 import data from "../../data/portfolio.js";
 import Chip from '@material-ui/core/Chip';
-import CoolCard from '../../components/pages/cards/coolcard.js';
+import CoolCard from './cards/coolcard.js';
 import Menu from './parts/Menu';
 import But from './parts/Button';
 import Dropdown from './cards/dropdown';
 import data2 from "../../data/categories.js";
-// import { Outlet } from "react-router-dom";
-
  
 const useStyles = makeStyles(theme => ({
   layout: {
@@ -25,28 +23,10 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const allCategories = data2.categories
-// ['All', 
-// 'Newsletter',
-// 'Artificial Intelligence',
-// 'Entrepreneurship', 
-// 'Prototype', 
-// 'Video', 
-// 'Article',
-// 'Deck/One-Pager', 
-// 'Longevity', 
-// 'Quantum Computing', 
-// 'Recommendation',
-// 'Hackathon', 
-// 'Haptics', 
-// 'Social Media', 
-// 'Nanotechnology', 
-// 'Website', 
-// 'Coding Projects', 
-// 'Design'
-// ];
 
 
-const Portfolio = props => {
+
+const Portfolio1 = props => {
   const classes = useStyles();
   const [menuItem, setMenuItem] = useState(data.port);
   const [buttons, setButtons] = useState(allCategories);
@@ -76,24 +56,31 @@ const Portfolio = props => {
   
   return (
     <div className={classes.layout}>
+      Welcome to my portfolio! Below you can view projects based on their category.
 
+      Featured
 
-        {/* <Typography variant="h1">Chloe's Portfolio</Typography> */}
-      <Typography variant="h5">Welcome to my portfolio! Below you can view projects based on their category.</Typography>
+      Technical Projects
+      - Design
+      - Mobile
+      - Web stuff
+      - Java
+      - Python
+      - Assembly
 
-      <Dropdown button={buttons} filter={filter} className={classes.dropdown}/>
-      <But button={buttons} filter={filter} className={classes.buttons}/>
-      <Menu menuItem={menuItem}/>
-      {/* <Outlet/> */}
+      Entrepreneurship/Hackathon
+      Newsletter
+
       
-      <ScrollArrow/>
-      
-      
 
+
+        
+      
+      hi
 
     </div>
     
   );
 }
 
-export default Portfolio;
+export default Portfolio1;

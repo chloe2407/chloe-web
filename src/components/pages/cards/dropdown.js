@@ -29,7 +29,6 @@ const useStyles = makeStyles((theme) => ({
 
  const Dropdown = ({button, fil}) => {
   const classes = useStyles();
-//   const allCategories = ['All', 'Newsletter','Artificial Intelligence','Entrepreneurship', 'Prototype', 'Video', 'Article','Deck/One-Pager', 'Longevity', 'Quantum Computing', 'Recommendation','Hackathon', 'Haptics', 'Social Media', 'Nanotechnology', 'Website'];
 
   const [filter, setFilter] = React.useState('');
 

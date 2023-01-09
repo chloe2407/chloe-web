@@ -7,8 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import ClickAwayListener from
-	"@material-ui/core/ClickAwayListener";
+import Box from '@material-ui/core/Box';
+import ClickAwayListener from "@material-ui/core/ClickAwayListener";
+import { Link, withRouter } from 'react-router-dom';
 
 
 
@@ -17,6 +18,7 @@ import Collapse from '@material-ui/core/Collapse';
 
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import PortfolioProject from '../parts/PortfolioProject';
 
 
 const useStyles = makeStyles(theme => ({
@@ -92,7 +94,9 @@ const handleClickAwayEvent = () => {
   };
   return (
     <Card className={classes.root}>
-      <a className={classes.link} href={props.link} target="_blank" rel="noopener noreferrer">
+      {/* <a className={classes.link} href={props.link} target="_blank" rel="noopener noreferrer"> */}
+      {/* <Link to={"/portfolio/project"} className={classes.link}> */}
+      <Link to={{ pathname: '/portfolio/' + props.title, prop: {...props}}} className={classes.link}>
       <CardActionArea className={classes.container}>
         <CardMedia
           className={classes.media}
@@ -116,9 +120,10 @@ const handleClickAwayEvent = () => {
 
         </CardContent>
       </CardActionArea>
-      </a>
+      </Link>
+      {/* </a> */}
       <CardActions>
-      <ClickAwayListener onClickAway={handleClickAwayEvent}>
+      {/* <ClickAwayListener onClickAway={handleClickAwayEvent}>
 		<div
 		style={{
 			position: "relative",
@@ -136,14 +141,14 @@ const handleClickAwayEvent = () => {
         </IconButton>
 		{open ? (<div></div>) : null}
 		</div>
-	</ClickAwayListener>
+	</ClickAwayListener> */}
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
+      {/* <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>{props.description}
           </Typography>
         </CardContent>
-      </Collapse>
+      </Collapse> */}
     </Card>
   );
 }

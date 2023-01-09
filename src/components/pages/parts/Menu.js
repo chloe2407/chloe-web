@@ -1,6 +1,7 @@
 import { makeStyles, } from '@material-ui/core';
 import React from 'react';
 import CoolCard from '../cards/coolcard';
+import { Link } from 'react-router-dom';
 
  
 const useStyles = makeStyles(theme => ({

@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core';
 import {Typography, Grid, Button } from '@material-ui/core';
 
 import React from 'react';
-import pic from "../../../assets/profile5.jpeg";
+import pic from "../../../assets/profile1.jpg";
 import name from "../../../assets/name.png";
 import resume from "../../../assets/resume.pdf";
 import image from "../../../assets/background1.png"; 
@@ -17,6 +17,9 @@ const useStyles = makeStyles(theme => ({
   root: {
     position: "relative",
   },
+  largeScreenSpace: {
+    margin: "10vw 0vw",
+  },
   img: {
     borderRadius: "50%",
     width: "60%",
@@ -25,17 +28,22 @@ const useStyles = makeStyles(theme => ({
     // marginRight: "200vw",
     // marginRight: "auto",
     zIndex: 1,
+    display: "none",
     [theme.breakpoints.up('sm')]: {
-      width: "95%",
-      marginLeft: "25vw"
+      // width: "35%",
+      
+      
     },
     [theme.breakpoints.up('md')]: {
       width: "45%",
+      marginLeft: "25vw",
+      display: "block"
     },
   },
   layout: {
     display: "flex", 
     flexDirection: "column",
+    justifyContent: "center",
     [theme.breakpoints.up('md')]: {
       flexDirection: "row-reverse",
       },
@@ -72,12 +80,16 @@ const useStyles = makeStyles(theme => ({
       top: "1vh", 
       left: "16vw",
     },
+    [theme.breakpoints.up('lg')]: {
+      left: "18vw",
+    },
+  },
+  title: {
     [theme.breakpoints.up('md')]: {
       fontSize: "3vw",
     },
     [theme.breakpoints.up('lg')]: {
-      fontSize: "3vw",
-      left: "18vw",
+      fontSize: "5vw",
     },
   },
   button: {
@@ -101,9 +113,6 @@ const useStyles = makeStyles(theme => ({
      backgroundRepeat:"no-repeat",
       backgroundSize:"cover"
   },
-  largeScreenSpace: {
-    margin: "10vw 0vw",
-  }
 }))
 const HeadingImage = props => {
   const classes = useStyles();
@@ -113,10 +122,12 @@ const HeadingImage = props => {
         <Grid container className={classes.layout}>
           <Grid item xs={12} sm={6} md={6} lg={6} className={classes.largeScreenSpace}>
             <img src={pic} className={classes.img} alt="profilepic"/>
-            <img className={classes.rightName} src={name} alt="myname"/>
           </Grid>
-          <Grid item xs={12} sm={6} md={6} lg={6} style={{display: "flex", flexDirection: "column"}}  className={classes.largeScreenSpace}>
-          <img className={classes.leftName} alt="myname" src={name}/>
+          <Grid item xs={12} sm={6} md={6} lg={6} style={{display: "flex", flexDirection: "column", alignContent: "center"}}  className={classes.largeScreenSpace}>
+            <div className={classes.text}>
+              <Typography variant='h2' className={classes.title}>Chloe Lam</Typography>
+              <Typography variant="p">Computer Science, Mathematics, Statistics</Typography>
+            </div>
             <ReactTypingEffect
               text={[" innovator", " passionate learner", " tech-lover"]}
               speed={70}

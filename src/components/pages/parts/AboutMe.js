@@ -64,7 +64,7 @@ const AboutMe = props => {
             <div className={classes.text}>
               <Typography variant="h3">About Me</Typography>
               <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated student who strives to constantly improve my technical skills, based in Toronto, ON, Canada. </Typography><br/>
-              <Typography variant="p">As a second year specializing in Computer Science with a Mathematics and Statistics minor, I work with like minded peers at the University of Toronto on various projects like <a href={csc110proj} target="_blank">this one</a>! </Typography><br/>
+              <Typography variant="p">As a second year specializing in Computer Science with a Mathematics and Statistics minor, I work with like minded peers at the University of Toronto on various projects like <a href="https://github.com/CSC207-2022F-UofT/course-project-group-80" target="_blank">this one</a>! </Typography><br/>
               <Typography variant="p">Currently the Webmaster for University College Literary and Athletic Society and Cybersecurity Student Association at the University of Toronto.</Typography><br/>
 
               <Typography variant="p">Extensive experience teaching STEM camps and internship work experiences at technology-related startup companies. Learned about numerous emerging technologies, leadership, and networking through partipation at The Knowledge Society and various Hackathons.</Typography><br/>
