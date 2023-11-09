@@ -119,10 +119,10 @@ const HeadingImage = props => {
       <div className={classes.root}>
         <div className={classes.background}>
         <Grid container className={classes.layout}>
-          <Grid item xs={12} sm={6} md={6} lg={6} className={classes.largeScreenSpace}>
+          {/* <Grid item xs={12} sm={6} md={6} lg={6} className={classes.largeScreenSpace}>
             <img src={pic} className={classes.img} alt="profilepic"/>
-          </Grid>
-          <Grid item xs={12} sm={6} md={6} lg={6} style={{display: "flex", flexDirection: "column", alignContent: "center"}}  className={classes.largeScreenSpace}>
+          </Grid> */}
+          <Grid item style={{display: "flex", flexDirection: "column", alignContent: "center"}}  className={classes.largeScreenSpace}>
             <div className={classes.text}>
               <Typography variant='h2' className={classes.title}>Chloe Lam</Typography>
               <Typography variant="p">Computer Science, Mathematics, Statistics</Typography>
