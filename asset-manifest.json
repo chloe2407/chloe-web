@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12efb048.css",
-    "main.js": "/static/js/main.d9b8b888.js",
+    "main.js": "/static/js/main.a63f4cd7.js",
     "static/media/background1.png": "/static/media/background1.1407a4ad1f48d6a7dad9.png",
     "static/media/4dprint.png": "/static/media/4dprint.0b996570ddf5662e66e3.png",
     "static/media/nanotech.png": "/static/media/nanotech.0a9d1b578e76454ea126.png",
@@ -18,10 +18,9 @@
     "static/media/uniplanit.png": "/static/media/uniplanit.5fe3ddeba127a5a88f27.png",
     "static/media/CSC258_FinalProject.pdf": "/static/media/CSC258_FinalProject.7fc6457fd2bb9d9f4215.pdf",
     "static/media/ai_article.jpeg": "/static/media/ai_article.ee809342181ffa31f94a.jpeg",
-    "static/media/aboutme1.jpeg": "/static/media/aboutme1.3dec6f94114b6e84b646.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.724a23511e1e5075365c.pdf",
     "static/media/newsletter.png": "/static/media/newsletter.247a8adeb7fb3d0704a5.png",
     "static/media/psiquantum.png": "/static/media/psiquantum.ba3ec02a9e86913188e9.png",
-    "static/media/resume.pdf": "/static/media/resume.3d0fa706d59a90bb2e08.pdf",
     "static/media/c3d_web.png": "/static/media/c3d_web.8d3ea72a98a3125da800.png",
     "static/media/uoftinder.png": "/static/media/uoftinder.ccdc4fe56dba2c23d69b.png",
     "static/media/penguin.png": "/static/media/penguin.f49ecdb3be1b9aa46376.png",
@@ -31,16 +30,17 @@
     "static/media/craftingsjoy.png": "/static/media/craftingsjoy.a350ec250435038a25de.png",
     "static/media/ribosoma.png": "/static/media/ribosoma.30210517ddae55946070.png",
     "static/media/battle.png": "/static/media/battle.bdf64665d12206ec0b33.png",
+    "static/media/aboutme1.jpg": "/static/media/aboutme1.b4c49bf57e93f5c1ab3c.jpg",
     "static/media/profile1.jpg": "/static/media/profile1.b4c49bf57e93f5c1ab3c.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.12efb048.css.map": "/static/css/main.12efb048.css.map",
-    "main.d9b8b888.js.map": "/static/js/main.d9b8b888.js.map"
+    "main.a63f4cd7.js.map": "/static/js/main.a63f4cd7.js.map"
   },
   "entrypoints": [
     "static/css/main.12efb048.css",
-    "static/js/main.d9b8b888.js"
+    "static/js/main.a63f4cd7.js"
   ]
 }
