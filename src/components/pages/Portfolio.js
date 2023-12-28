@@ -17,6 +17,18 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center",
 
   },
+  button: {
+    display: "block",
+    [theme.breakpoints.down('md')]: {
+      display: "none",
+    },
+  },
+  dropdown: {
+    display: "none",
+    [theme.breakpoints.down('md')]: {
+      display: "block",
+    },
+  },
 
 }))
 
@@ -75,13 +87,14 @@ const Portfolio = props => {
 
       <Typography variant="h5">Welcome to my portfolio! Below you can view projects based on their category.</Typography>
 
-      <Dropdown button={buttons} filter={filter} className={classes.dropdown}/>
+      <Dropdown button={buttons} fil={filter} className={classes.dropdown}/>
       <But button={buttons} filter={filter} className={classes.buttons}/>
       
 
       {/* Conditional rendering for tech buttons */}
       {showTechButtons ? (
         <div>
+          <Dropdown button={techButtons} fil={techFilter} className={classes.dropdown}/>
           <But button={techButtons} filter={techFilter} className={classes.buttons} buttonColor="secondary"/>
         </div>
       ): <div></div>}
