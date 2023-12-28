@@ -4,6 +4,7 @@ import ScrollArrow from './cards/scroll.js';
 import HeadingImage from './parts/HeadingImage.js';
 import AboutMe from './parts/AboutMe.js';
 import FeaturedWorks from './parts/FeaturedWorks.js';
+import AboutRecentProjects from './parts/AboutRecentProjects.js'
 
 const useStyles = makeStyles(theme => ({
   space: {
@@ -23,6 +24,7 @@ const Homepage = props =>{
       <AboutMe/>
       <div className={classes.space}/>
       <FeaturedWorks/>
+      <AboutRecentProjects/>
       {/* mission */}      
     </div>
     

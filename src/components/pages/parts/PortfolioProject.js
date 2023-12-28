@@ -9,8 +9,12 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center",
   },
   image: {
-    width: "100vw",
+    // width: "100vw",
+    width: "100%",
+    // height: "100%",
     height: "30vh",
+    objectFit: 'cover',
+
     opacity: "50%",
      backgroundRepeat:"no-repeat",
       backgroundSize:"contain"
@@ -40,7 +44,7 @@ const PortfolioProject = props => {
           )  
         }))
       }
-      <Typography variant='h5' style={{width: "80vw", display: "flex", justifyContent: "center"}}>About the project: {project.description}</Typography>
+      <Typography variant='h5' style={{display: "flex", justifyContent: "center"}}>{project.description}</Typography>
       <Typography variant='h6'>Learn more about the project</Typography>
       
       {

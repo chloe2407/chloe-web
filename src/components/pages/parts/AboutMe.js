@@ -7,16 +7,10 @@ import Socials from "../cards/socials.js";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    [theme.breakpoints.up('lg')]: {
-      // maxHeight: "90vh",
-      overflow: "hidden",
-    }
     
   },
   text: {
-    flex: 1,
-    position: "relative",
-    left: "2vw",
+
     [theme.breakpoints.up('sm')]: {
       lineHeight: "160%",
     },
@@ -24,7 +18,6 @@ const useStyles = makeStyles(theme => ({
       lineHeight: "200%"
     },
     [theme.breakpoints.up('lg')]: {
-      maxWidth: "50%",
       lineHeight: "200%"
 
     },
@@ -58,7 +51,7 @@ const AboutMe = props => {
       <Grid container>
         <Grid item xs/>
         <Grid item xs={10} sm={8} style={{display: "flex", flexDirection: "row"}}>
-            <div className={classes.imgCont}><img className={classes.img} src={aboutme} alt="mefull"/></div>
+            {/* <div className={classes.imgCont}><img className={classes.img} src={aboutme} alt="mefull"/></div> */}
             <div className={classes.text}>
               <Typography variant="h3">About Me</Typography>
               <Typography variant="p">Hi! I'm Chloe, a hardworking and dedicated student who strives to constantly improve my technical skills, based in Toronto, ON, Canada. </Typography><br/>

@@ -11,6 +11,24 @@ const data = {
     //   - Assembly
         'Entrepreneurship/Hackathons',
         'Newsletters/Article Writing'
+    ],
+    techCategories: [
+        'All',
+        'ReactJS',
+        'HTML',
+        'CSS',
+        'Flutter',
+        'Dart',
+        'Python',
+        'Assembly',
+        'Github',
+        'Firebase',
+        'Java',
+        'Javascript',
+        'Android',
+        'Mobile App',
+        'Website',
+        'Game'
     ]
     
 } 

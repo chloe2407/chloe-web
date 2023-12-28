@@ -25,6 +25,7 @@ import petudier from "../assets/portfolio/petudier.png"
 import uoftinder from "../assets/portfolio/uoftinder.png"
 import breakout from "../assets/portfolio/breakout.png"
 import csc258proj from "../assets/portfolio/CSC258_FinalProject.pdf"
+import patientapp from "../assets/portfolio/patientapp.png"
 
 
 const data = {
@@ -94,7 +95,7 @@ const data = {
     id: 6,
     img: unchallenge,
     title: "Global UN Challenge: Increasing Women's Employment in the Philippines",
-    category:['Entreprenurship/Hackathons', 'Featured'],
+    category:['Entreprenurship/Hackathons'],
     description: "While I was participating in The Knowledge Society's Accelerator Program, my team decided to focus on learning more about the gender wage gap that females experience today. We created a slide deck with a recommendation to the UN to increase women’s employment in the digital economy by 2026 in the Philippines.",
     links: [
         ['UN Recommendation Slide Deck','https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FV4TVmZkjwJc3NU8KYapnVkV6yDo1%2FAngelina%2C%20Chloe%2C%20Jalisha%2C%20Julia%2C%20Macy%20-%20UN%20Recommendation%20Deck.pdf?alt=media&token=c75f327c-7b38-40f7-a16a-dee25c6faeb3']
@@ -205,7 +206,7 @@ const data = {
     id: 16,
     img: c3dweb,
     title: "C3D Summer Camp Webpage",
-    category:['Technical Projects', 'HTML', 'CSS', 'Javascript', 'ReactJS', 'Featured'],
+    category:['Technical Projects', 'HTML', 'CSS', 'Javascript', 'ReactJS', 'Github', 'Featured'],
     description: "Worked with CodeCa to help build their website pages using HTML, CSS, Javascript, ReactJS",
     links: [
         ['C3D SummerCamp Webpage', 'https://summercamp.c3d.io/']
@@ -215,7 +216,7 @@ const data = {
     id: 17,
     img: lineplot,
     title: "r/HowCovidImpactsMentalHealth",
-    category:['Technical Projects', 'Python'],
+    category:['Technical Projects', 'Python', 'Github'],
     description: "Worked with peers in CSC110 to find the relationship bewtween Covid-19 and Mental Health. Using Python libraries like Pandas, Matplotlib, Numpy, Scikit-learn, we analyzed and graphed how social media reveals the impacts of COVID-19 on mental health.",
     links: [
         ['PDF of project' , csc110proj],
@@ -236,7 +237,7 @@ const data = {
     id: 19,
     img: uniplanit,
     title: "UniPlanit",
-    category:['Entrepreneurship/Hackathons', 'Technical Projects', 'Website', 'ReactJS', 'Featured'],
+    category:['Entrepreneurship/Hackathons', 'Technical Projects', 'Website', 'ReactJS', 'Github', 'Featured'],
     description: "UniPlanit's intelligent algorithm generates your best schedules for you. We help university students produce a customised timetable satisfying their needs for desired lectures, reserved break times, having classes with friends, and many more. Worked a group of 4 other students over the summer to create a schedule planner.",
     links: [
         ['Website','https://www.uniplanit.com']
@@ -246,7 +247,7 @@ const data = {
     id: 20,
     img: petudier,
     title: "Pétudier",
-    category:['Entrepreneurship/Hackathons', 'Technical Projects', 'Website', 'HTML', 'CSS', 'JavaScript'],
+    category:['Entrepreneurship/Hackathons', 'Technical Projects', 'Website', 'HTML', 'CSS', 'Github', 'JavaScript'],
     description: "Pétudier aims to aid students in becoming more productive by blocking out distracting websites when it's time to study. It promotes self-improvement and building effective time management.",
     links: [
         ['Demo Video','https://www.youtube.com/watch?v=Wbbj37xxTjQ&t=36s']
@@ -256,7 +257,7 @@ const data = {
     id: 21,
     img: uoftinder,
     title: "UofTinder",
-    category:['Entrepreneurship/Hackathons', 'Technical Projects', 'Mobile App', 'Java', 'Featured'],
+    category:['Entrepreneurship/Hackathons', 'Technical Projects', 'Mobile App', 'Java', 'Firebase', 'Android', 'Github', 'Featured'],
     description: "Introducing UofTinder, a social networking Android application built by a group of UofT students. Inspired by Tinder, we wanted to create an application with more options in terms of the type of relationships people may want to build with others. The program offers users the opportunity to either look for their significant other, friends, or academic partners. Then, a compatibility algorithm analyzes certain profile metrics (e.g., hobbies and interests, sexual orientation, academic focuses) to recommend potential matches to people based on their calculated compatibility. If two people match with each other through this selection process, they proceed to a chat feature where they have the opportunity to talk and get to know each other more. Some design patterns that we implemented within our project include Model View Presenter (MVP), Façade, Observer, and Dependency Injection.",
     links: [
         ['Github Project','https://github.com/CSC207-2022F-UofT/course-project-group-80']
@@ -274,6 +275,17 @@ const data = {
     ]
 
 },
+{
+    id: 23,
+    img: patientapp,
+    title: "Patient App",
+    category: ['Technical Projects', 'Mobile App', 'Flutter', 'Firebase', 'Dart', 'Github', 'Featured'],
+    description: "A Flutter Patient App that allows patients to log their health patterns for improved health plans.",
+    links: [
+
+    ]
+    
+}
 
 ]
         

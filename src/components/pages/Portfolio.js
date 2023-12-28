@@ -1,4 +1,4 @@
-import { makeStyles, Typography, Grid} from '@material-ui/core';
+import { makeStyles, Typography, Grid, Button} from '@material-ui/core';
 import React from 'react';
 import { useState } from 'react';
 import ScrollArrow from './cards/scroll';
@@ -21,34 +21,53 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const allCategories = data2.categories
+const allTechCategories = data2.techCategories
 
 const Portfolio = props => {
   const classes = useStyles();
   const [menuItem, setMenuItem] = useState(data.port);
   const [buttons, setButtons] = useState(allCategories);
+  const [techButtons, setTechButtons] = useState(allTechCategories);
+  const [showTechButtons, setShowTechButtons] = useState(false);
+
   
   const filter = (button) =>{
     if(button  === data2.categories[0])
     {
       setMenuItem(data.port);
+      if (button !== data2.categories[2])
+      {
+        // don't show tech buttons
+        setShowTechButtons(false);
+      }
       return;
     }
 
-      
-    const filteredData = []
-    data.port.filter(item => {
-      for (var i = 0; i < item.category.length; i++) 
-      {
-        if (item.category[i] === button)
-        {
-          // add to filtered data
-          filteredData.push(item)
-        }
-      }
-    })
+    const filteredData = data.port.filter(item =>
+      item.category.includes(button)
+    );
 
     setMenuItem(filteredData);
-  }
+    setShowTechButtons(button === "Technical Projects"); // Show tech buttons only for "Technical Projects"
+
+    
+  };
+
+  const techFilter = (techButton) =>{
+    if(techButton  === data2.techCategories[0])
+    {
+      setMenuItem(data.port.filter(item => item.category.includes("Technical Projects")));
+      return;
+    }
+
+    const filteredTechData = data.port.filter(item =>
+      item.category.includes(techButton)
+    );
+
+    setMenuItem(filteredTechData);
+    
+  };
+  
   
   return (
     <div className={classes.layout}>
@@ -58,6 +77,15 @@ const Portfolio = props => {
 
       <Dropdown button={buttons} filter={filter} className={classes.dropdown}/>
       <But button={buttons} filter={filter} className={classes.buttons}/>
+      
+
+      {/* Conditional rendering for tech buttons */}
+      {showTechButtons ? (
+        <div>
+          <But button={techButtons} filter={techFilter} className={classes.buttons} buttonColor="secondary"/>
+        </div>
+      ): <div></div>}
+
       <Menu menuItem={menuItem}/>
       
       <ScrollArrow/>

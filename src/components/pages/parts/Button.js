@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 
 
 
-const But = ({button, filter}) => {
+const But = ({button, filter, buttonColor}) => {
   const classes = useStyles();
   const [selected, setSelected] = useState('');
   const selection = (c) => {
@@ -55,7 +55,7 @@ const But = ({button, filter}) => {
       {
         button.map((cat => {
           return (
-            <Button className={classes.button} color="primary" variant={selection(cat)} onClick={() => handle(cat)}>{cat}</Button>
+            <Button className={classes.button} color={buttonColor || 'primary'} variant={selection(cat)} onClick={() => handle(cat)}>{cat}</Button>
           )
           
         }))

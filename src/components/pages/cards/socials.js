@@ -47,7 +47,7 @@ const Socials = props => {
         <Button onMouseOver={MouseOver} onMouseOut={MouseOut}><a className={classes.link} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloe-lam-2407/"><LinkedIn/></a></Button>
         <Button onMouseOver={MouseOver} onMouseOut={MouseOut}><a className={classes.link} target="_blank" rel="noopener noreferrer" href="https://medium.com/@chloelam2407"><Medium/></a></Button>
         <Button onMouseOver={MouseOver} onMouseOut={MouseOut}><a className={classes.link} target="_blank" rel="noopener noreferrer" href="mailto:chloelam2407@gmail.com"><Email/></a></Button>
-        <Button onMouseOver={MouseOver} onMouseOut={MouseOut}><a className={classes.link} target="_blank" rel="noopener noreferrer" href="https://tks.life/profile/chloe.lam#about"><TKS/></a></Button>
+        {/* <Button onMouseOver={MouseOver} onMouseOut={MouseOut}><a className={classes.link} target="_blank" rel="noopener noreferrer" href="https://tks.life/profile/chloe.lam#about"><TKS/></a></Button> */}
         <Button onMouseOver={MouseOver} onMouseOut={MouseOut}><a className={classes.link} target="_blank" rel="noopener noreferrer" href="https://github.com/chloe2407"><GitHub/></a></Button>               
       </div>
   )};
