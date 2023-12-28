@@ -7,7 +7,6 @@ import codeca from "../../../assets/portfolio/c3d_web.png";
 
 
 import React from 'react';
-import Socials from "../cards/socials.js";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -22,7 +21,7 @@ const useStyles = makeStyles(theme => ({
   },
   img: {
     flex: 1,
-    display: "none",
+    display: "block",
     width: "100%", // Adjust the width of the image to take up the available space
     [theme.breakpoints.up('lg')]: {
       display: "block",
@@ -34,6 +33,13 @@ const useStyles = makeStyles(theme => ({
     flex: 1,
     margin: "2vw"
 
+  },
+  projectChunk: {
+    display: "flex", 
+    flexDirection: "column",
+    [theme.breakpoints.up('md')]: {
+      flexDirection: "row"
+    },
   }
   
 }))
@@ -47,7 +53,7 @@ const AboutRecentProjects = props => {
       {/* PATIENT APP */}
       <Grid container>
         <Grid item xs/>
-        <Grid item xs={10} sm={8} style={{display: "flex", flexDirection: "row"}}>
+        <Grid item xs={10} sm={8} className={classes.projectChunk}>
             <div className={classes.imgCont}>
                 <Typography variant="h5">Patient App (BC Renal, Provincial Health Services Authority)</Typography>
                 <img className={classes.img} src={patientapp} alt="patient app"/>
@@ -66,7 +72,7 @@ const AboutRecentProjects = props => {
       {/* UCLIT */}
       <Grid container>
         <Grid item xs/>
-        <Grid item xs={10} sm={8} style={{display: "flex", flexDirection: "row"}}>
+        <Grid item xs={10} sm={8} className={classes.projectChunk}>
             <div className={classes.imgCont}>
                 <Typography variant="h5">UCLit Website (University College Literary and Athletic Society, UofT)</Typography>
                 <img className={classes.img} src={uclit} alt="uclit"/>
@@ -81,7 +87,7 @@ const AboutRecentProjects = props => {
       {/* UOFTINDER */}
       <Grid container>
         <Grid item xs/>
-        <Grid item xs={10} sm={8} style={{display: "flex", flexDirection: "row"}}>
+        <Grid item xs={10} sm={8} className={classes.projectChunk}>
             <div className={classes.imgCont}>
                 <Typography variant="h5">UofTinder (CSC207 Project, UofT)</Typography>
                 <img className={classes.img} src={uoftinder} alt="uoftinder"/>
@@ -100,7 +106,7 @@ const AboutRecentProjects = props => {
       {/* CODECA */}
       <Grid container>
         <Grid item xs/>
-        <Grid item xs={10} sm={8} style={{display: "flex", flexDirection: "row"}}>
+        <Grid item xs={10} sm={8} className={classes.projectChunk}>
             <div className={classes.imgCont}>
                 <Typography variant="h5">CodeCa Website </Typography>
                 <img className={classes.img} src={codeca} alt="codeca"/>
