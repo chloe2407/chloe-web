@@ -112,7 +112,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <Typography color="primary" variant="h6" style={{width: "100%", padding: "2vw"}}>©2023 Copyright Chloe Lam. All Rights Reserved.</Typography>
+        <Typography color="primary" variant="h6" style={{width: "100%", padding: "2vw"}}>©2024 Copyright Chloe Lam. All Rights Reserved.</Typography>
         <div className={classes.socialsShow}><Socials/></div>
       </div>
     </div>
