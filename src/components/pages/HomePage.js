@@ -5,6 +5,7 @@ import HeadingImage from './parts/HeadingImage.js';
 import AboutMe from './parts/AboutMe.js';
 import FeaturedWorks from './parts/FeaturedWorks.js';
 import AboutRecentProjects from './parts/AboutRecentProjects.js'
+import EmbeddedChatbot from './cards/chatbot.js';
 
 const useStyles = makeStyles(theme => ({
   space: {
@@ -25,6 +26,7 @@ const Homepage = props =>{
       <div className={classes.space}/>
       <FeaturedWorks/>
       <AboutRecentProjects/>
+      <EmbeddedChatbot/>
       {/* mission */}      
     </div>
     
