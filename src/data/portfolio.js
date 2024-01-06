@@ -26,6 +26,8 @@ import uoftinder from "../assets/portfolio/uoftinder.png"
 import breakout from "../assets/portfolio/breakout.png"
 import csc258proj from "../assets/portfolio/CSC258_FinalProject.pdf"
 import patientapp from "../assets/portfolio/patientapp.png"
+import bcrenal from "../assets/portfolio/bcrenal.mp4"
+import aireflectionarticle from "../assets/portfolio/ai_reflection_article.png"
 
 
 const data = {
@@ -282,7 +284,18 @@ const data = {
     category: ['Technical Projects', 'Mobile App', 'Flutter', 'Firebase', 'Dart', 'Github', 'Featured'],
     description: "A Flutter Patient App that allows patients to log their health patterns for improved health plans.",
     links: [
-
+        ['Video Demo of App (not all features accessible)', bcrenal]
+    ]
+    
+},
+{
+    id: 24,
+    img: aireflectionarticle,
+    title: "I've always been interested in Artificial Intelligence",
+    category: ['Newsletters/Article Writing', 'Featured'],
+    description: "Reflection on how my interest in artificial intelligence originated",
+    links: [
+        ['Link to Article', "https://medium.com/@chloelam2407/ive-always-been-fascinated-by-artificial-intelligence-38717afbc3f0"]
     ]
     
 }
