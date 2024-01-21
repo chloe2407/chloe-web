@@ -305,7 +305,7 @@ const data = {
     id: 25,
     img: shopify_stopwatch,
     title: "Shopify StopWatch Front-End Engineering Internship Technical Challenge",
-    category: ['React', 'TypeScript', 'CSS', 'Jest'],
+    category: ['Technical Projects', 'React', 'TypeScript', 'CSS', 'Jest'],
     description: "I implemented a stopwatch application using React and TypeScript, with start, stop, lap, and reset functionalities. The unit tests implemented ensure the correctness of such features",
     links: [
         ['Link to Github', "https://github.com/chloe2407/eng-intern-assessment-react"],
