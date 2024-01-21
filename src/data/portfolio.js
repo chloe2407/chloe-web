@@ -28,6 +28,8 @@ import csc258proj from "../assets/portfolio/CSC258_FinalProject.pdf"
 import patientapp from "../assets/portfolio/patientapp.png"
 import bcrenal from "../assets/portfolio/bcrenal.mp4"
 import aireflectionarticle from "../assets/portfolio/ai_reflection_article.png"
+import shopify_stopwatch from "../assets/portfolio/Shopify_stopwatch.png"
+import shopify_stopwatch_demo from "../assets/portfolio/Shopify_stopwatch.mp4"
 
 
 const data = {
@@ -298,7 +300,20 @@ const data = {
         ['Link to Article', "https://medium.com/@chloelam2407/ive-always-been-fascinated-by-artificial-intelligence-38717afbc3f0"]
     ]
     
+},
+{
+    id: 25,
+    img: shopify_stopwatch,
+    title: "Shopify StopWatch Front-End Engineering Internship Technical Challenge",
+    category: ['React', 'TypeScript', 'CSS', 'Jest'],
+    description: "I implemented a stopwatch application using React and TypeScript, with start, stop, lap, and reset functionalities. The unit tests implemented ensure the correctness of such features",
+    links: [
+        ['Link to Github', "https://github.com/chloe2407/eng-intern-assessment-react"],
+        [' Demo Video', shopify_stopwatch_demo]
+    ]
+    
 }
+
 
 ]
         
