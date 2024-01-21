@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12efb048.css",
-    "main.js": "/static/js/main.cb88fdf2.js",
+    "main.js": "/static/js/main.03d317d8.js",
     "static/media/Shopify_stopwatch.mp4": "/static/media/Shopify_stopwatch.1562ad6476478e232ebc.mp4",
     "static/media/background1.png": "/static/media/background1.1407a4ad1f48d6a7dad9.png",
     "static/media/4dprint.png": "/static/media/4dprint.0b996570ddf5662e66e3.png",
@@ -43,10 +43,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.12efb048.css.map": "/static/css/main.12efb048.css.map",
-    "main.cb88fdf2.js.map": "/static/js/main.cb88fdf2.js.map"
+    "main.03d317d8.js.map": "/static/js/main.03d317d8.js.map"
   },
   "entrypoints": [
     "static/css/main.12efb048.css",
-    "static/js/main.cb88fdf2.js"
+    "static/js/main.03d317d8.js"
   ]
 }
