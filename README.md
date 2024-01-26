@@ -1,4 +1,4 @@
-Welcome to my personal website! (https://chloelam.ca/) It was last updated January 19th, 2024.
+Welcome to my personal website! (https://chloelam.ca/) It was last updated January 26th, 2024.
 
 I have included a brief summary about me, my resume, as well as past works I've done. 
 The <a href=https://chloelam.ca/portfolio>portfolio page</a> also includes all my past projects in depth.
