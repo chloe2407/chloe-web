@@ -19,6 +19,8 @@ const data = {
         'CSS',
         'Flutter',
         'Dart',
+        'Django',
+        'Postman',
         'Python',
         'Assembly',
         'Github',
@@ -27,6 +29,7 @@ const data = {
         'Javascript',
         'Android',
         'Mobile App',
+        'Web App',
         'Website',
         'Game'
     ]

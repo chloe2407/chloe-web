@@ -30,6 +30,8 @@ import bcrenal from "../assets/portfolio/bcrenal.mp4"
 import aireflectionarticle from "../assets/portfolio/ai_reflection_article.png"
 import shopify_stopwatch from "../assets/portfolio/Shopify_stopwatch.png"
 import shopify_stopwatch_demo from "../assets/portfolio/Shopify_stopwatch.mp4"
+import oneOnOne from "../assets/portfolio/oneOnOne.png"
+import oneOnOneAPI from "../assets/portfolio/OneOnOne_API_Documentation.pdf"
 
 
 const data = {
@@ -312,6 +314,17 @@ const data = {
         [' Demo Video', shopify_stopwatch_demo]
     ]
     
+}, 
+{
+    id: 26,
+    img: oneOnOne,
+    title: "OneOnOne",
+    category: ['Technical Projects', 'ReactJS', 'Django', 'Python', 'Postman', 'Web App', 'Featured'],
+    description: "OneOnOne is a web application that facilitates one-on-one meetings between students and professors. It allows students to book appointments, view their schedules, and communicate with professors. The application was built using ReactJS for the front-end and Django for the back-end, with Postman used for API testing.",
+    links: [
+        ['Github Repository', 'https://github.com/chloe2407/oneOnOne'],
+        ['API Documentation', oneOnOneAPI]
+    ]
 }
 
 
