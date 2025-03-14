@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12efb048.css",
-    "main.js": "/static/js/main.0a4eb797.js",
+    "main.js": "/static/js/main.30564262.js",
     "static/media/Shopify_stopwatch.mp4": "/static/media/Shopify_stopwatch.1562ad6476478e232ebc.mp4",
     "static/media/background1.png": "/static/media/background1.1407a4ad1f48d6a7dad9.png",
     "static/media/4dprint.png": "/static/media/4dprint.0b996570ddf5662e66e3.png",
@@ -26,7 +26,7 @@
     "static/media/newsletter.png": "/static/media/newsletter.247a8adeb7fb3d0704a5.png",
     "static/media/psiquantum.png": "/static/media/psiquantum.ba3ec02a9e86913188e9.png",
     "static/media/c3d_web.png": "/static/media/c3d_web.8d3ea72a98a3125da800.png",
-    "static/media/resume.pdf": "/static/media/resume.f1e3bc21c8c5fdaeeea6.pdf",
+    "static/media/resume.pdf": "/static/media/resume.d6fe6c9fbfc815b74573.pdf",
     "static/media/ai_reflection_article.png": "/static/media/ai_reflection_article.0d2f804ded9b49ef13a8.png",
     "static/media/uoftinder.png": "/static/media/uoftinder.ccdc4fe56dba2c23d69b.png",
     "static/media/penguin.png": "/static/media/penguin.f49ecdb3be1b9aa46376.png",
@@ -45,10 +45,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.12efb048.css.map": "/static/css/main.12efb048.css.map",
-    "main.0a4eb797.js.map": "/static/js/main.0a4eb797.js.map"
+    "main.30564262.js.map": "/static/js/main.30564262.js.map"
   },
   "entrypoints": [
     "static/css/main.12efb048.css",
-    "static/js/main.0a4eb797.js"
+    "static/js/main.30564262.js"
   ]
 }
