@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core';
 import {Typography, Grid, Button } from '@material-ui/core';
 
 import React from 'react';
-import pic from "../../../assets/profile1.jpg";
+import pic from "../../../assets/profile3.jpg";
 import resume from "../../../assets/resume.pdf";
 import image from "../../../assets/background1.png"; 
 

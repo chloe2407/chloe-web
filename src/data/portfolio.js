@@ -32,6 +32,7 @@ import shopify_stopwatch from "../assets/portfolio/Shopify_stopwatch.png"
 import shopify_stopwatch_demo from "../assets/portfolio/Shopify_stopwatch.mp4"
 import oneOnOne from "../assets/portfolio/oneOnOne.png"
 import oneOnOneAPI from "../assets/portfolio/OneOnOne_API_Documentation.pdf"
+import vrrc from "../assets/portfolio/vrrc.png"
 
 
 const data = {
@@ -324,6 +325,17 @@ const data = {
     links: [
         ['Github Repository', 'https://github.com/chloe2407/oneOnOne'],
         ['API Documentation', oneOnOneAPI]
+    ]
+},
+{
+    id: 27,
+    img: vrrc,
+    title: "Volcano Risk Reduction in Canada (NRCan)",
+    category: ['Technical Projects', 'Python', 'Docker', 'AWS', 'Featured'],
+    description: "Synthetic aperture radar (SAR) data, particularly InSAR, has proven invaluable in monitoring ground deformation related to volcanic unrest. However, the increasing volume of data presents challenges in processing and extracting actionable insights. Machine learning (ML) offers a solution for automating the analysis of SAR data, improving efficiency and enabling near real-time monitoring of volcanic activity. This project aims to build upon previous work in ML-based volcanic unrest detection, particularly focusing on InSAR data.",
+    links: [
+        ['Workbench Github Repository', 'https://github.com/chloe2407/Volcanic-Interpretation-Workbench'],
+        ['Volcano Deformation Detection Github Repository', 'https://github.com/chloe2407/volcano_deform_detection'],
     ]
 }
 

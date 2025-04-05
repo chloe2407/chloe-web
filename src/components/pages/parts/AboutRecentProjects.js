@@ -4,6 +4,7 @@ import patientapp from "../../../assets/portfolio/patientapp.png";
 import uclit from "../../../assets/portfolio/uclit.png";
 import uoftinder from "../../../assets/portfolio/uoftinder.png";
 import codeca from "../../../assets/portfolio/c3d_web.png";
+import vrrc from "../../../assets/portfolio/vrrc.png";
 
 
 import React from 'react';
@@ -50,6 +51,26 @@ const AboutRecentProjects = props => {
   return (
       <div className={classes.root}> 
       <Typography variant="h3" style={{justifyContent: "center",textAlign: "center",}}>Recent Projects</Typography>
+      {/* VRRC - Volcano Detection */}
+      <Grid container>
+        <Grid item xs/>
+        <Grid item xs={10} sm={8} className={classes.projectChunk}>
+            <div className={classes.imgCont}>
+                <Typography variant="h5">VRRC (Natural Resources Canada (NRCan))</Typography>
+                <img className={classes.img} src={vrrc} alt="vrrc"/>
+            </div>
+            <div className={classes.text}>
+              <Typography variant="p">For eight months (May 2024 to December 2024), I worked with Natural Resources Canada (NRCan) to develop tools for satellite-based monitoring and analysis of volcanic activity in Canada. </Typography>
+              <Typography variant="p">I led a UI design session with over eight scientists to build a user-centered observation log tab using Figma and Dash/Python, which improved dashboard usability by 25%. </Typography>
+              <Typography variant="p">I further enhanced the dashboard by incorporating Government of Canada branding, a streamlined legend, glacier footprint integration, and a more accurate summary table. </Typography> 
+              <Typography variant="p">Additionally, I developed a scalable real-time inference pipeline for processing RCM InSAR data using Docker and AWS, optimizing image resolution, coordinate systems, </Typography>
+              <Typography variant="p">and machine learning models to refine displacement analysis and support automated volcanic unrest detection. </Typography>
+              <Typography variant='p'>From January 2025 to the present, I have continued this work through my CSC495 Computer Science project at the University of Toronto, in collaboration with NRCan, </Typography>
+              <Typography variant='p'>focusing on improving model performance and deploying an end-to-end automated detection system for volcanic unrest.</Typography>
+            </div>
+        </Grid>
+        <Grid item xs/>
+      </Grid>
       {/* PATIENT APP */}
       <Grid container>
         <Grid item xs/>
