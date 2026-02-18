@@ -1,7 +1,7 @@
 import srcURLs from "../data/srcURLs.js";
 
 // Featured project IDs (displayed in Featured Works carousel)
-export const featuredProjectIds = [22, 21, 10, 13, 20]; // VRRC, Patient App, UCLit, UofTinder, CodeCa
+export const featuredProjectIds = [24, 22, 21, 10, 13, 20]; // Sentinel, VRRC, Patient App, UCLit, UofTinder, CodeCa
 
 const portfolio = [
     {

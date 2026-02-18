@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFBFC;
+}
+
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', source-code-pro, monospace;
+}
+
+/* Smooth focus for accessibility */
+:focus-visible {
+  outline: 2px solid #0D9488;
+  outline-offset: 2px;
+}
+
+/* Carousel overrides for modern look */
+.react-multi-carousel-track { align-items: stretch; }
+.react-multi-carousel-item { display: flex; }
+.react-multi-carousel-item .item-con { width: 100%; display: flex; justify-content: center; }
